@@ -1,0 +1,278 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:nxp
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:WARG
+LIBS:Programming Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x10_Female J?
+U 1 1 59EF45A8
+P 9400 2000
+F 0 "J?" H 9400 2500 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 9400 1400 50  0000 C CNN
+F 2 "" H 9400 2000 50  0001 C CNN
+F 3 "" H 9400 2000 50  0001 C CNN
+	1    9400 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 2300 2    60   Input ~ 0
+NRST
+Text GLabel 9400 1900 2    60   Input ~ 0
+SWDIO
+Text GLabel 9400 2000 2    60   Input ~ 0
+SWCLK
+Text GLabel 9400 1600 2    60   Input ~ 0
+MCUVDD
+Text GLabel 9400 2500 2    60   Input ~ 0
+VDD
+Text GLabel 9400 1700 2    60   Input ~ 0
+GND
+Text GLabel 9400 1800 2    60   Input ~ 0
+GND
+$Comp
+L SW_Push SW?
+U 1 1 59F7DF1B
+P 9000 1800
+F 0 "SW?" H 9050 1900 50  0000 L CNN
+F 1 "SW_Push" H 9000 1740 50  0000 C CNN
+F 2 "" H 9000 2000 50  0001 C CNN
+F 3 "" H 9000 2000 50  0001 C CNN
+	1    9000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59F7DF60
+P 8950 2500
+F 0 "R?" V 9030 2500 50  0000 C CNN
+F 1 "R" H 8950 2500 50  0000 C CNN
+F 2 "" V 8880 2500 50  0001 C CNN
+F 3 "" H 8950 2500 50  0001 C CNN
+	1    8950 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L SPOX-5 J?
+U 1 1 59F7E356
+P 7800 2000
+F 0 "J?" H 7900 2300 60  0000 C CNN
+F 1 "SPOX-5" H 7900 1700 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5055_05x2.54mm_Straight" H 7800 2100 60  0001 C CNN
+F 3 "" H 7800 2100 60  0001 C CNN
+F 4 "CONN-004" H 8000 2400 60  0001 C CNN "part_num"
+	1    7800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Female J?
+U 1 1 59FB5B97
+P 4400 1900
+F 0 "J?" H 4400 2400 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 4400 1300 50  0000 C CNN
+F 2 "" H 4400 1900 50  0001 C CNN
+F 3 "" H 4400 1900 50  0001 C CNN
+	1    4400 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 1600 2    60   Input ~ 0
+GND
+Text GLabel 4400 1700 2    60   Input ~ 0
+GND
+Text GLabel 4400 1800 2    60   Input ~ 0
+GND
+Text GLabel 4400 1900 2    60   Input ~ 0
+GND
+Text GLabel 4400 2000 2    60   Input ~ 0
+GND
+Text GLabel 4400 2100 2    60   Input ~ 0
+GND
+Text GLabel 4400 2200 2    60   Input ~ 0
+GND
+Text GLabel 4400 2300 2    60   Input ~ 0
+GND
+Text GLabel 4400 2400 2    60   Input ~ 0
+GND
+Text GLabel 4400 1500 2    60   Input ~ 0
+MCUVDD
+Wire Wire Line
+	8800 1800 8800 2500
+Connection ~ 8800 2300
+Wire Wire Line
+	9200 1600 8350 1600
+Wire Wire Line
+	8350 1600 8350 1800
+Wire Wire Line
+	8350 1800 8000 1800
+Wire Wire Line
+	8350 2300 8350 1900
+Wire Wire Line
+	8350 1900 8000 1900
+Wire Wire Line
+	9200 1900 8500 1900
+Wire Wire Line
+	8500 1900 8500 2000
+Wire Wire Line
+	8500 2000 8000 2000
+Wire Wire Line
+	9200 2000 8600 2000
+Wire Wire Line
+	8600 2000 8600 2100
+Wire Wire Line
+	8600 2100 8000 2100
+Wire Wire Line
+	9200 1700 8700 1700
+Wire Wire Line
+	8700 1700 8700 2200
+Wire Wire Line
+	8700 2200 8000 2200
+Wire Wire Line
+	8350 2300 9200 2300
+Wire Wire Line
+	9100 2500 9200 2500
+Wire Wire Line
+	3500 1700 4200 1700
+Wire Wire Line
+	3500 1700 3200 2000
+Wire Wire Line
+	2900 2000 4200 2000
+Wire Wire Line
+	4200 1800 3600 1800
+Wire Wire Line
+	3600 1800 3400 2000
+Connection ~ 3200 2000
+Wire Wire Line
+	4200 1900 3700 1900
+Wire Wire Line
+	3700 1900 3600 2000
+Connection ~ 3400 2000
+Connection ~ 3600 2000
+Wire Wire Line
+	4200 2100 3700 2100
+Wire Wire Line
+	3700 2100 3600 2000
+Wire Wire Line
+	4200 2200 3600 2200
+Wire Wire Line
+	3600 2200 3400 2000
+Wire Wire Line
+	4200 2300 3500 2300
+Wire Wire Line
+	3500 2300 3200 2000
+Wire Wire Line
+	4200 2400 3400 2400
+Wire Wire Line
+	3400 2400 3000 2000
+Connection ~ 3000 2000
+Wire Wire Line
+	4200 1600 3400 1600
+Wire Wire Line
+	3400 1600 3000 2000
+Wire Wire Line
+	4250 1500 2800 1500
+$EndSCHEMATC
