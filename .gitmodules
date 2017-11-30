@@ -1,0 +1,4 @@
+[submodule "WARG-KiCAD"]
+	path = WARG-KiCAD
+	url = https://github.com/avlepage/WARG-KiCAD
+
