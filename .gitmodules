@@ -1,0 +1,3 @@
+[submodule "WARG-KiCAD"]
+	path = WARG-KiCAD
+	url = ./WARG-KiCAD
