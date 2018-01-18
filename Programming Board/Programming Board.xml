@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/Anubis/Documents/University/WARG/KiCAD/Programming Board/Programming Board.sch</source>
+    <date>Wednesday, November 29, 2017 'pmt' 06:49:33 pm</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Programming Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>WARG KiCAD:Programmer_ResetButton</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F7DF1B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>WARG-kicad:1.7x6.5</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F7DF60</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SPOX-5</value>
+      <footprint>Connectors_Molex:Molex_SPOX-5267_22-03-5055_05x2.54mm_Straight</footprint>
+      <fields>
+        <field name="part_num">CONN-004</field>
+      </fields>
+      <libsource lib="WARG" part="SPOX-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F7E356</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DB20M</value>
+      <footprint>WARG-kicad:Board_Edge_female</footprint>
+      <libsource lib="WARG" part="DB20M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FBAE7B</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x01</value>
+      <footprint>WARG KiCAD:Programming_Board_Switch</footprint>
+      <libsource lib="switches" part="SW_DIP_x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A027074</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Board_Edge_5x2x2.54</value>
+      <footprint>WARG KiCAD:Board_Edge_Female2x5x2.54</footprint>
+      <libsource lib="WARG" part="Board_Edge_5x2x2.54"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0E4C48</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TEST_1P</value>
+      <footprint>WARG KiCAD:Test_Point_5V</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A144E68</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="WARG" part="Board_Edge_5x2x2.54">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Board_Edge_5x2x2.54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="WARG" part="DB20M">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DB20M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="~" type="input"/>
+        <pin num="15" name="~" type="input"/>
+        <pin num="16" name="~" type="input"/>
+        <pin num="17" name="~" type="input"/>
+        <pin num="18" name="~" type="input"/>
+        <pin num="19" name="~" type="input"/>
+        <pin num="20" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WARG" part="SPOX-5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SPOX-5</field>
+        <field name="Footprint">Connectors_Molex:Molex_SPOX-5267_22-03-5055_05x2.54mm_Straight</field>
+        <field name="part_num">CONN-004</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="WARG">
+      <uri>/Users/Anubis/Documents/University/WARG/KiCAD/WARG-KiCAD/WARG.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/Users/Anubis/Documents/University/WARG/KiCAD/KiCAD Libraries/kicad-library-4.0.7/library/switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad5)">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="3" name="/3V3">
+      <node ref="U1" pin="19"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="4" name="SWDIO">
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="5" name="SWCLK">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="18"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="7" name="RST">
+      <node ref="U1" pin="15"/>
+      <node ref="U2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(SW1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+  </nets>
+</export>
